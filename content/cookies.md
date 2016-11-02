@@ -1,4 +1,4 @@
-About cookies
+Cookies
 ==============================================
 
-What about cookies?
+Mumms.

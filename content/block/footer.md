@@ -1,4 +1,4 @@
-Copyright &copy; 2012-2016 [Mikael Roos](https://mikaelroos.se) (mos@dbwebb.se)
+Simon Wahlström(siwa15)
 
 * [License](license)
 * [Cookies](cookies)

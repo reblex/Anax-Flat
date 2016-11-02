@@ -1,4 +1,5 @@
-####Nedladdningar
+####Github
 
-* [GitHub](https://github.com/canax/anax-flat)
-* [Packagist](https://packagist.org/packages/mos/anax-flat)
+Här finns sidans källkod.
+
+[GitHub](https://github.com/reblex/Anax-Flat)

@@ -1,12 +1,12 @@
 ---
 titleBreadcrumb: Home
 ...
-En hemsida med Anax Flat
+Me-sida
 ===============================
 
-Hej!
-
-Detta är en hemsida skapad med hjälp av Anax Flat. Denna sidan kommer att användas
-som grund för kursen *design*.
+Hej!  
+![Simon Wahlström](../htdocs/img/meImg.jpg)  
+Jag heter Simon Wahlström och studerar första året Webbprogrammering på BTH i
+Karlskrona. Välkommen till min hemsida!
 
 /Simon

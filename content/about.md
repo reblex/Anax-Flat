@@ -1,8 +1,9 @@
 Om hemsidan
 ==============================================
 
-Huvudmålet med denna sidan är att:
+Kuresen *Teknisk webbdesign och användbarhet* lär ut grunder i webbdesign samt
+principer för användbarhet. Kursen inkluderar ämnen som färgläggning, typografi,
+layout, samt olika ramverk.  
+![Enheter och färger](../htdocs/img/colors.jpg)
 
-* Lära ut [dbwebb-kursen design](http://dbwebb.se/design).
-
-Denna sidan är skapad av  *Simon Wahlström*.
+Här finns [git-repot](https://github.com/reblex/Anax-Flat) för hemsidan.

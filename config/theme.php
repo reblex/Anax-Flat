@@ -18,7 +18,7 @@ return [
             "lang"          => "sv",
             "charset"       => "utf-8",
             "title_append"  => " | Anax Flat",
-            "favicon"       => "img/favicon/favicon_256x256.png",
+            "favicon"       => "img/favicon/large.jpg",
 
             // Style and stylesheets
             "stylesheets" => ["css/default.min.css"],
@@ -40,7 +40,7 @@ return [
             "template" => "default/image",
             "data" => [
                 "class" => "logo-1",
-                "src" => "img/favicon/favicon_128x128.png",
+                "src" => "img/favicon/medium.jpg",
                 "alt" => "Logo",
             ],
             "sort" => 1
@@ -50,8 +50,8 @@ return [
             "template" => "default/header",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "Anax Flat",
-                "siteLogoTextIcon" => "img/favicon/favicon_40x40.png",
+                "siteLogoText"  => "Simon Wahlström",
+                "siteLogoTextIcon" => "img/favicon/small.jpg",
                 "siteLogoTextIconAlt" => "Small logo",
                 "siteLogo"      => null, //"img/anax.png",
                 "siteLogoAlt"   => null, //"Anax Logo",
