@@ -21,11 +21,17 @@ return [
             "favicon"       => "img/favicon/large.jpg",
 
             // Style and stylesheets
-            "stylesheets" => ["css/default.min.css"],
+            // "stylesheets" => ["css/default.min.css"],
+            // "stylesheets" => ["css/style.min.css"],
+            "stylesheets" => [
+                "css/style.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ],
             "styleInline" => null,
 
-            // JavaScript
-            "javascripts" => [],
+            // ipt
+            //"javascripts" => [],
+            "javascripts" => ["js/responsive-menu.js"]
         ],
     ],
 
@@ -50,7 +56,7 @@ return [
             "template" => "default/header",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "Simon Wahlström",
+                "siteLogoText"  => "Simon W",
                 "siteLogoTextIcon" => "img/favicon/small.jpg",
                 "siteLogoTextIconAlt" => "Small logo",
                 "siteLogo"      => null, //"img/anax.png",
@@ -60,14 +66,14 @@ return [
             ],
             "sort" => 2
         ],
-/*
+
         [
             "region" => "profile",
             "template" => "default/navbar-max",
             "data" => [],
             "sort" => -1
         ],
-*/
+
         [
             "region" => "navbar2",
             "template" => "default/navbar",

@@ -1,0 +1,187 @@
+/**
+* Anax Flat theme.
+*/
+@import url(modules.less);
+
+
+@primaryPageColor: #e95644;
+
+
+body {
+    background-color: #E9E9E9;
+    color: #666666;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: @primaryPageColor;
+}
+a:visited {
+    color: darken(@primaryPageColor, 30%);
+}
+a:hover {
+    color: @primaryPageColor;
+    text-decoration: underline;
+}
+
+/** --------------------------------------------------------------
+ *  Header
+ */
+
+.site-header {
+    height: 80px;
+}
+
+.site-logo-text,
+.navbar2,
+.profile {
+    float: left;
+    width: 30%;
+}
+
+.site-logo-text {
+    font-size: 2em;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.rm-desktop li a {
+    border-radius: 0 0 15px 10px;
+    font-size: 15px;
+    border: 2px solid #777777;
+    border-top: none;
+}
+
+.rm-desktop li a:hover {
+    text-decoration: none;
+    color: @primaryPageColor;
+}
+
+//Navbar main
+
+@navbarItemColor: @primaryPageColor;
+@navbarItemBgColor: #666666;
+@navbarItemHoverBgColor: darken(@navbarItemBgColor, 20%);
+
+//navbar max
+
+@maxBgColor: #666666;
+// @maxMenuItemClickedBgColor: yellow; //@navbarMenuButtonClickedColor;
+@maxButtonFontSize: 2em;
+@maxButtonColor: @primaryPageColor;
+@maxButtonClickedColor: @primaryPageColor;
+
+// .rm-default .rm-mobile .rm-clicked a:visited {
+//     color: @primaryPageColor;
+// }
+
+.rm-swipe-right {
+    a {
+        color: @primaryPageColor;
+    }
+    .rm-clicked a:hover {
+        background-color: #444444;
+        text-decoration: none;
+    }
+}
+
+
+/** --------------------------------------------------------------
+ *  Logo images
+ */
+.logo-1 {
+    position: absolute;
+    top: 70px;
+    left: -140px;
+}
+
+.site-logo-text-icon {
+    img {
+        vertical-align: bottom;
+    }
+}
+
+.selected .selected-parent a {
+    color: green;
+}
+
+// .outer-wrap-breadcrumb {
+//     a {
+//         color: red;
+//     }
+// }
+// .outer-wrap-main {
+//     a {
+//         color: red;
+//     }
+// }
+
+.has-sidebar .article {
+    h1, p {
+        width: 60%;
+        float: right;
+    }
+}
+
+
+
+/** --------------------------------------------------------------
+ *  Responsive design
+ */
+img {
+        max-width: 100%;
+}
+
+ @media screen and (max-width: 900px) {
+     .site-logo-text {
+         width: 40%;
+     }
+
+     .navbar2 {
+         width: 50%;
+     }
+
+     .profile {
+         width: 10%;
+     }
+ }
+
+ @media screen and (max-width: 600px) {
+     .navbar2 {
+         display: none;
+     }
+
+     .site-logo-text {
+         width: 90%;
+         text-align: center;
+     }
+
+ }
+
+ @media screen and (max-width: 750px) {
+     .sidebar {
+        display: none;
+     }
+     .has-sidebar .article {
+         h1, p {
+             width: 100%;
+             float: left;
+         }
+     }
+ }
+
+ @media screen and (max-width: 700px) {
+     .footer-column {
+         width: 100%;
+         text-align: center;
+     }
+ }
