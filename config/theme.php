@@ -56,7 +56,7 @@ return [
             "template" => "default/header",
             "data" => [
                 "homeLink"      => "",
-                "siteLogoText"  => "Simon W",
+                "siteLogoText"  => "Simon",
                 "siteLogoTextIcon" => "img/favicon/small.jpg",
                 "siteLogoTextIconAlt" => "Small logo",
                 "siteLogo"      => null, //"img/anax.png",
